@@ -10,6 +10,10 @@ This project builds and optimizes an Artificial Neural Network (ANN) to classify
 - **Testing Data:** `agedetectiontest/Test/` (images), `agedetectiontest/test.csv` (labels)
 - Each CSV maps image IDs to age group classes.
 
+You can download the training dataset directly:
+- [agedetectiontrain.zip](https://infyspringboard.onwingspan.com/common-content-store/Shared/Shared/Public/lex_auth_012776431940165632236_shared/web-hosted/assets/agedetectiontrain.zip)
+  - Place this file in your project directory and extract its contents.
+
 ---
 
 ## Methodology
@@ -64,6 +68,7 @@ your_project_folder/
     └── test.csv
 ├── your_script.py
 └── optimum_model.h5  # After training
+├── agedetectiontrain.zip  # Download and extract this file
 ```
 
 ### 2. Install Dependencies
@@ -94,6 +99,7 @@ This will:
 - `agedetectiontest/` - Testing images and `test.csv`
 - `optimum_model.h5` - Trained Keras model
 - `out.csv` - Predictions on the test set
+- `agedetectiontrain.zip` - Downloadable training dataset
 
 ---
 
